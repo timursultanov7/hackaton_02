@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Press Start 2P", sans-serif;
+
+  /* font-size: 10px; */
+  --white: #fff;
+  --black: #000;
+}
+body {
+  background-color: #000;
+  color: #fff;
+}
+
+.btn {
+  border: none;
+  background-color: var(--white);
+  padding: 1rem 2rem;
+  color: var(--black);
+}
+
+#input {
+  padding: 2rem 0;
+  margin-bottom: 2rem;
+  border: 2px solid var(--white);
+  background-color: var(--black);
+  color: var(--white);
+  font-size: 3rem;
+  width: 50%;
+  text-align: center;
+}
+#top_of_header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+.container {
+  width: 90vw;
+  margin: 0 auto;
+}
+h1 {
+  text-align: center;
+  /* margin: 3rem 0; */
+  font-size: 3vw;
+}
+header {
+  border-bottom: 5px solid var(--white);
+}
+#question_div {
+  border: 1px solid var(--white);
+  height: 150px;
+  width: 150px;
+  text-align: center;
+  vertical-align: middle;
+  margin: 0 auto;
+  transform: translate(0, 50px);
+  background-color: var(--white);
+}
+
+#question_mark {
+  font-size: 6vw;
+  background-color: var(--white);
+  color: var(--black);
+  font-weight: bold;
+
+  text-align: center;
+  transform: translate(0, 40px);
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+}
+
+#wrapper {
+  display: flex;
+  justify-content: space-around;
+
+  width: 50%;
+  margin-top: 15rem;
+}
+
+.hidden {
+  display: none;
+}
+
+.color_change {
+  background-color: brown;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+#btn_check {
+  width: 40%;
+}
+
+#main_right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-size: 1.5rem;
+  line-height: 1.9rem;
+
+  width: 80%;
+}
